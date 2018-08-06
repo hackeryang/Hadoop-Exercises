@@ -240,7 +240,7 @@
     <property name="SearchEverywhereHistoryKey" value="FSData&#9;FILE&#9;jar:///home/yyc/.m2/repository/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.0/hadoop-common-2.6.0-cdh5.15.0.jar!/org/apache/hadoop/fs/FSDataInputStream.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533540412682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533540436904" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -380,12 +380,12 @@
       <workItem from="1533342832224" duration="2871000" />
       <workItem from="1533367066814" duration="4381000" />
       <workItem from="1533436021097" duration="11200000" />
-      <workItem from="1533517892391" duration="4327000" />
+      <workItem from="1533517892391" duration="4656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89686000" />
+    <option name="totallyTimeSpent" value="90015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
