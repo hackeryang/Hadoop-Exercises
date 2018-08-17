@@ -14,7 +14,7 @@ public class MaxTemperatureDriver extends Configured implements Tool {
     public int run(String[] args) throws Exception {
         if(args.length!=2){
             System.err.printf("Usage: %s [generic options] <input> <output>\n",getClass().getSimpleName());
-            ToolRunner.printGenericCommandUsage(System.err);
+            ToolRunner.printGenericCommandUsage(System.err);  //打印命令行应使用的参数信息
             return -1;
         }
 
