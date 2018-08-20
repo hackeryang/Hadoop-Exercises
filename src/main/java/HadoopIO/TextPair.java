@@ -97,11 +97,11 @@ public class TextPair implements WritableComparable<TextPair> {  //定制一个�
     public static class FirstComparator extends WritableComparator{
         private static final Text.Comparator TEXT_COMPARATOR=new Text.Comparator();
         public FirstComparator(){
-            super(TextPair.class);
+            super(TextPair.class);  //调用父类WritableComparator的构造函数
         }
 
         @Override
-        public int compare(byte[] b1, int s1, int l1, byte[] b2, int s2, int l2) {
+        public int compare(byte[] b1, int s1, int l1, byte[] b2, int s2, int l2) {  //用于比较第一个字段
             try{
                 int firstL1=WritableUtils.decodeVIntSize(b1[s1])+readVInt(b1,s1);
                 int firstL2=WritableUtils.decodeVIntSize(b2[s2])+readVInt(b2,s2);
