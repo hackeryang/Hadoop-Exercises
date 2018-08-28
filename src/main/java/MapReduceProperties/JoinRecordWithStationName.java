@@ -22,7 +22,7 @@ public class JoinRecordWithStationName extends Configured implements Tool {  //å
         }
     }
 
-    @Override
+
     public int run(String[] args) throws Exception {
         if(args.length!=3){
             JobBuilder.printUsage(this,"<ncdc input> <station input> <output>");

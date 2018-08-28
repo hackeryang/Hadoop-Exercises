@@ -35,7 +35,7 @@ public class MaxTemperatureDriver extends Configured implements Tool {
     }
 
     public static void main(String[] args) throws Exception{
-        int exitCode=ToolRunner.run(new MaxTemperatureDriver(),args);
+        int exitCode=ToolRunner.run(new MaxTemperatureDriver(),args);  //exitCode被赋予上面run()方法中最后job.waitForCompletion()的返回值
         System.exit(exitCode);
     }
 }
