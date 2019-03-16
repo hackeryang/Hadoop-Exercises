@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb75f4ed-f3a7-498e-9332-13e4aac1a17a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaProjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hive/Maximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hive/Mean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hive/Strip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Hive/stations-fixed-width.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/ActiveKeyValueStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/ConnectionWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/DeleteGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/JoinGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ZooKeeper/ListGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -36,19 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Strip.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConnectionWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="67" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="67" />
+              <caret line="23" column="128" selection-start-line="23" selection-start-column="128" selection-end-line="23" selection-end-column="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,80 +51,94 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Maximum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/DeleteGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="38" column="67" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="67" />
+            <state relative-caret-position="162">
+              <caret line="11" column="119" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="119" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes.845792376.timestamp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ActiveKeyValueStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigWatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Mean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigUpdater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+            <state relative-caret-position="522">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Spark/MaxTemperatureSpark.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/JoinGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="72" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ListGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="119" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="119" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/CreateGroup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Spark/sample.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/MaxTemperature.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HadoopIO/FileDecompressor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -151,15 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Temperature/MaxTemperatureReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/MaxTemperatureReducerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Temperature/MaxTemperatureWithCombiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/MaxTemperatureDriverTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/MaxTemperatureMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/MaxTemperatureMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/LoggingIdentityMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceApplication/LoggingDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MapReduceTypes/MinimalMapReduce.java" />
         <option value="$PROJECT_DIR$/src/main/java/MapReduceTypes/JobBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/MapReduceTypes/MinimalMapReduceWithDefaults.java" />
         <option value="$PROJECT_DIR$/src/main/java/MapReduceTypes/NonSplittableTextInputFormat.java" />
@@ -198,10 +197,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/MaxTemperature.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Spark/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/java/Spark/MaxTemperatureSpark.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Hive/Strip.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hive/Maximum.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hive/Mean.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Hive/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/JoinGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/ListGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/DeleteGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/ConnectionWatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/CreateGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigWatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/ActiveKeyValueStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigUpdater.java" />
       </list>
     </option>
   </component>
@@ -224,11 +232,6 @@
           <item name="bigdata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="bigdata" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -247,8 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,36 +281,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Hive" type="462c0819:PsiDirectoryNode" />
+              <item name="ZooKeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="plugins&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plu&#9;ACTION&#9;WelcomeScreen.Plugins&#10;getParti&#9;PSI&#9;JAVA://MapReduceProperties.MaxTemperatureUsingSecondarySort.FirstPartitioner#getPartition&#10;FSData&#9;FILE&#9;jar:///home/yyc/.m2/repository/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.0/hadoop-common-2.6.0-cdh5.15.0.jar!/org/apache/hadoop/fs/FSDataInputStream.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552197335898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552737677401" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/scala" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Hive" />
       <recent name="$PROJECT_DIR$/src/main/java/Spark" />
       <recent name="$PROJECT_DIR$/src/main/java/HBase" />
       <recent name="$PROJECT_DIR$/src/main/java/Temperature" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,18 +492,36 @@
       <workItem from="1535763773185" duration="2404000" />
       <workItem from="1552120465336" duration="655000" />
       <workItem from="1552121598097" duration="9082000" />
-      <workItem from="1552179567695" duration="7564000" />
+      <workItem from="1552179567695" duration="7748000" />
+      <workItem from="1552197838483" duration="300000" />
+      <workItem from="1552389530710" duration="562000" />
+      <workItem from="1552391553168" duration="5341000" />
+      <workItem from="1552460655188" duration="9300000" />
+      <workItem from="1552525198181" duration="7014000" />
+      <workItem from="1552543699362" duration="2653000" />
+      <workItem from="1552651841182" duration="5207000" />
+      <workItem from="1552698705497" duration="7647000" />
+      <workItem from="1552737025461" duration="1250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275919000" />
+    <option name="totallyTimeSpent" value="315377000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="-11" width="1922" height="1092" extended-state="6" />
+    <frame x="1920" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22998933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25400212" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,16 +531,16 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3294979" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3294979" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3291536" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -547,68 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MapReduceTypes/WholeFileRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MapReduceTypes/JobBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Temperature/MaxTemperatureReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="152" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MapReduceApplication/MaxTemperatureReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="113" selection-start-line="8" selection-start-column="113" selection-end-line="8" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaProjects.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.15.0/hadoop-core-2.6.0-mr1-cdh5.15.0.jar!/org/apache/hadoop/mapreduce/Cluster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MapReduceTypes/PartitionByStationUsingMultipleOutputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.0/hadoop-common-2.6.0-cdh5.15.0.jar!/org/apache/hadoop/io/WritableComparator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MapReduceProperties/MissingTemperatureFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HadoopIO/TextPair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -817,6 +782,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Spark/MaxTemperature$.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Spark/MaxTemperature.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Spark/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Strip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Maximum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Mean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Spark/MaxTemperatureSpark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -844,57 +840,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="122" column="48" lean-forward="true" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes.845792376.timestamp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Strip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/stations-fixed-width.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConnectionWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="67" />
+          <caret line="23" column="128" selection-start-line="23" selection-start-column="128" selection-end-line="23" selection-end-column="128" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Maximum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/DeleteGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="67" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="67" />
+        <state relative-caret-position="162">
+          <caret line="11" column="119" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="119" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hive/Mean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/JoinGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ListGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="119" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/CreateGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ActiveKeyValueStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ZooKeeper/ConfigUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
