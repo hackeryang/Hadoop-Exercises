@@ -19,8 +19,8 @@ public class WholeFileInputFormat extends FileInputFormat<NullWritable, BytesWri
 
     @Override
     public RecordReader<NullWritable, BytesWritable> createRecordReader(InputSplit split, TaskAttemptContext context) throws IOException, InterruptedException {  //返回定制的RecordReader实现
-        WholeFileRecordReader reader=new WholeFileRecordReader();  //依赖于WholeFileRecordReader类
-        reader.initialize(split,context);  //初始化输入分片和配置
+        WholeFileRecordReader reader = new WholeFileRecordReader();  //依赖于WholeFileRecordReader类
+        reader.initialize(split, context);  //初始化输入分片和配置
         return reader;
     }
 }

@@ -15,14 +15,14 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 public class WordCount2 {
-    public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable>{
+    public static class TokenizerMapper extends Mapper<Object, Text, Text, IntWritable> {
         private final static IntWritable one = new IntWritable(1);
         private Text word = new Text();
 
         @Override
         protected void map(Object key, Text value, Context context) throws IOException, InterruptedException {
             StringTokenizer itr = new StringTokenizer(value.toString());
-            while (itr.hasMoreTokens()){
+            while (itr.hasMoreTokens()) {
                 word.set(itr.nextToken());
                 context.write(word, one);
             }
@@ -42,12 +42,13 @@ public class WordCount2 {
             context.write(key, result);
         }
     }
+
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
 
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
 
-        if(otherArgs.length != 2){
+        if (otherArgs.length != 2) {
             System.err.println("Usage: wordcount <in> <out>");
             System.exit(2);
         }

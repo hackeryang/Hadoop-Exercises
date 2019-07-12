@@ -7,31 +7,31 @@ public class NcdcStationMetadataParser {
     private String stationId;
     private String stationName;
 
-    public boolean parse(String record){
-        if(record.length()<42){  //header
+    public boolean parse(String record) {
+        if (record.length() < 42) {  //header
             return false;
         }
-        String usaf=record.substring(0,6);  //stationID横杠前六位数字
-        String wban=record.substring(7,12);  //stationID横杠后五位数字
-        stationId=usaf+"-"+wban;
-        stationName=record.substring(14,42);
-        try{
+        String usaf = record.substring(0, 6);  //stationID横杠前六位数字
+        String wban = record.substring(7, 12);  //stationID横杠后五位数字
+        stationId = usaf + "-" + wban;
+        stationName = record.substring(14, 42);
+        try {
             Integer.parseInt(usaf);  //USAF identifiers are numeric
             return true;
-        }catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             return false;
         }
     }
 
-    public boolean parse(Text record){
+    public boolean parse(Text record) {
         return parse(record.toString());
     }
 
-    public String getStationId(){
+    public String getStationId() {
         return stationId;
     }
 
-    public String getStationName(){
+    public String getStationName() {
         return stationName;
     }
 }

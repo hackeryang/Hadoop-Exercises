@@ -12,12 +12,10 @@ import org.apache.hadoop.mapreduce.lib.partition.HashPartitioner;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
-import java.io.IOException;
-
 public class MinimalMapReduceWithDefaults extends Configured implements Tool {
     public int run(String[] args) throws Exception {
-        Job job=JobBuilder.parseInputAndOutput(this,getConf(),args);
-        if(job==null){
+        Job job = JobBuilder.parseInputAndOutput(this, getConf(), args);
+        if (job == null) {
             return -1;
         }
 
@@ -32,11 +30,11 @@ public class MinimalMapReduceWithDefaults extends Configured implements Tool {
         job.setOutputValueClass(Text.class);
         job.setOutputFormatClass(TextOutputFormat.class);
 
-        return job.waitForCompletion(true)?0:1;
+        return job.waitForCompletion(true) ? 0 : 1;
     }
 
-    public static void main(String[] args) throws Exception{
-        int exitCode= ToolRunner.run(new MinimalMapReduceWithDefaults(),args);
+    public static void main(String[] args) throws Exception {
+        int exitCode = ToolRunner.run(new MinimalMapReduceWithDefaults(), args);
         System.exit(exitCode);
     }
 }
