@@ -22,7 +22,7 @@
     </repositories>
 
     <properties>
-        <cdh.version>2.6.0-cdh5.15.0</cdh.version>
+        <cdh.version>2.10.1</cdh.version>
     </properties>
 
     <dependencies>
